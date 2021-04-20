@@ -1,0 +1,278 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../font/OpenSans-Bold.woff2') format('woff2'),
+        url('../font/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../font/OpenSans-Regular.woff2') format('woff2'),
+        url('../font/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans';
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.header {
+    position: fixed;
+    padding: 0 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.acer:checked ~ .acer-logo {
+    color: tomato;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 56px;
+    background-color: #fff;
+
+}
+
+.nav-list {
+    color: #000;
+    font-size: 15px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-left: auto;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: rgb(68, 66, 66);
+    color: #fff;
+}
+
+.nav-ietm {
+    margin: 0;
+    padding: 0;
+    margin-left: 32px;
+    display: block;
+}
+
+.intro-link {
+    background-color: #00BAFC;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.intro-content {
+    width: 470px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.intro-title {
+    margin: 0;
+    margin-bottom: 16px;
+    font-size: 30px;
+
+}
+
+.intro-discription {
+    margin: 0;
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+
+.section-text {
+    width: 719px;
+    text-align: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 56px;
+}
+
+.xizmatlar {
+    font-size: 24px;
+}
+
+.con-container {
+
+    align-items: center;
+}
+
+.xizmatlar-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+
+.xizmatlar-item {
+    margin: 35px;
+    width: 320px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.text-link {
+    color: #00BAFC;
+    margin: 16px;
+}
+
+.ol-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-box {
+    width: 500px;
+    margin: 0 30px;
+}
+
+.buyurtma {
+    text-align: center
+}
+
+.input-title {
+    color: #fff;
+    font-size: 24px;
+    padding-top: 40px;
+    margin-top: 40px;
+}
+
+.input-text {
+    width: 719px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 20px;
+
+}
+
+.input-container {
+    background-color: #00BAFC;
+    padding-bottom: 60px;
+}
+
+.input-box {
+    width: 300px;
+    background-color: #fff;
+    padding: 10px 24px 24px;
+    margin: 0 auto;
+    border-radius: 5px;
+
+}
+
+.input-input {
+    display: flex;
+    width: 240px;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.link {
+text-align: center;
+margin-top: 20px;
+}
+
+
+.foot-li {
+    list-style: none;
+    padding: 7px 0;
+    color: #fff;
+}
+
+.foot-container {
+    background-color: #191919;
+    display: flex;
+    padding-top: 56px;
+    padding-bottom: 103px;
+}
+
+.foot-h3 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.foot-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.div-foot1 {
+    width: 320px;
+}
+
+ul {
+    padding: 0px;
+}
+
+.foot1 {
+    padding: 0;
+    margin: 10px;
+}
+
+.foot2 {
+    padding: 0;
+    margin: 0;
+}
+
+.foot3 {
+    padding: 0;
+    margin: 0;
+}
+
+.foot-img {
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.foot-p {
+    font-size: 20px;
+    color: #fff;
+}
+
+.foot-pp {
+    color: #fff;
+}
+
+.foot-div {
+    display: flex;
+    justify-content: space-around;
+}
